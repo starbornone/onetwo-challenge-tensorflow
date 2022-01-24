@@ -1,0 +1,9 @@
+body {
+  font-family: "Source Code Pro", sans-serif;
+  line-height: 1.6;
+  padding: 24px;
+}
+
+.App {
+  max-width: 600px;
+}
