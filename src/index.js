@@ -5,7 +5,7 @@ import * as tfvis from "@tensorflow/tfjs-vis";
 document.getElementById("root").innerHTML = `
 <div class="App">
 <h1>Tensorflow</h1>
-<p>This version is a 4 layer network - input, hidden, hidden, output - which learns that 1 = 2 and 2 = 1.</p>
+<p>A challenge where an input of 1 must return 2 and an input of 2 must return 1, solved by a 4 layer network - input, hidden, hidden, output - which learns that 1 = 2 and 2 = 1.</p>
 <p>The predict() function doesn't give exactly 2 - it comes out with around 1.9999999999952895412 - because the neural network is just a math function. But predictAndRound() will give us the correct value.</p>
 <p>You can check out the outputs of the model in the console. And see Model Predictions vs Original Data for the final outcome where 1 = 2 and 2 = 1.</p>
 </div>
